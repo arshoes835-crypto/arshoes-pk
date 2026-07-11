@@ -42,7 +42,39 @@ header {
     color: green;
     font-weight: bold;
 }
+.products{
+    padding:50px 20px;
+    text-align:center;
+}
 
+.product-grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.product-card{
+    width:280px;
+    background:#fff;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    padding:15px;
+}
+
+.product-card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.product-card button{
+    background:#ff6600;
+    color:#fff;
+    border:none;
+    padding:10px 20px;
+    border-radius:6px;
+    cursor:pointer;
+}
 button {
     background: #28a745;
     color: white;
